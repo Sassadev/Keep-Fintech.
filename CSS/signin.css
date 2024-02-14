@@ -1,0 +1,115 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(215deg, #122629c2 11.37%, #325B4C 40.71%, #72CAAA 63.45%, #62A78E 69.22%, #2C5244 77.93%, #000000 87.32%);
+border-radius: 30px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+
+position:absolute;
+width: 320px;
+height: 358px;
+left: 0px;
+top: 250px;
+
+background: #FFFFFF;
+border-radius: 30px 0px 0px 0px;
+
+
+
+    font-family: 'Baloo Bhaina';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 30px;
+text-align: center;
+
+color: rgb(0, 0, 0);}
+
+
+.container {
+
+    position:relative;
+    width: 3000px;
+    height: 650px;
+
+    background: linear-gradient(192.62deg, #011d19da 11.37%, #467a67 40.71%, #83d3b5 63.45%, #74bba1 69.22%, #02312d 77.93%, #000000 87.32%);
+    border-radius: 30px;
+    text-align: center;
+    max-width: 400;
+    transform: matrix(-1, 0, 0, 1, 0, 0);}
+
+
+.logo {
+    position: absolute;
+    width: 44px;
+    height: 38px;
+    left: 140px;
+    top: 100px;
+}
+
+.content-box {
+    padding: 40px;
+}
+
+h1 {
+    color: #020202;
+}
+
+.login-box {
+    margin-top: 150px;
+}
+
+h2 {
+    color: #0c0c0c;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #020202;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #070707;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #070707;
+}
+
+
+
+.register-text {
+    margin-top: 20px;
+    color: #f8f4f8;
+}
+
+.register-text a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.register-text a:hover {
+    text-decoration: underline;
+}
